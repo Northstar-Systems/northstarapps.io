@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0D060"/>
+      <stop offset="50%" stop-color="#D4A843"/>
+      <stop offset="100%" stop-color="#8A6A1B"/>
+    </linearGradient>
+    <linearGradient id="n" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2A4A"/>
+      <stop offset="100%" stop-color="#0F1D3A"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#n)" stroke="url(#g)" stroke-width="2"/>
+  <!-- Compass ring -->
+  <circle cx="50" cy="50" r="36" fill="none" stroke="rgba(212,168,67,0.3)" stroke-width="1"/>
+  <!-- Main star - 4 points -->
+  <polygon points="50,6 55,40 50,34 45,40" fill="url(#g)"/>
+  <polygon points="50,94 55,60 50,66 45,60" fill="url(#g)"/>
+  <polygon points="6,50 40,45 34,50 40,55" fill="url(#g)"/>
+  <polygon points="94,50 60,45 66,50 60,55" fill="url(#g)"/>
+  <!-- Diagonal points -->
+  <polygon points="19,19 42,40 38,38 40,42" fill="url(#g)" opacity="0.7"/>
+  <polygon points="81,19 58,40 62,38 60,42" fill="url(#g)" opacity="0.7"/>
+  <polygon points="19,81 42,60 38,62 40,58" fill="url(#g)" opacity="0.7"/>
+  <polygon points="81,81 58,60 62,62 60,58" fill="url(#g)" opacity="0.7"/>
+  <!-- Center point -->
+  <circle cx="50" cy="50" r="4" fill="#F0D060"/>
+  <circle cx="50" cy="50" r="2" fill="#FFFFFF"/>
+  <!-- Circuit traces -->
+  <line x1="50" y1="6" x2="50" y2="0" stroke="#4EAAA0" stroke-width="1" opacity="0.5"/>
+  <line x1="94" y1="50" x2="100" y2="50" stroke="#4EAAA0" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="94" x2="50" y2="100" stroke="#4EAAA0" stroke-width="1" opacity="0.5"/>
+  <line x1="6" y1="50" x2="0" y2="50" stroke="#4EAAA0" stroke-width="1" opacity="0.5"/>
+  <!-- Circuit nodes -->
+  <rect x="48" y="-1" width="4" height="4" rx="1" fill="#5CB88A" opacity="0.6"/>
+  <rect x="98" y="48" width="4" height="4" rx="1" fill="#5CB88A" opacity="0.6"/>
+  <rect x="48" y="97" width="4" height="4" rx="1" fill="#5CB88A" opacity="0.6"/>
+  <rect x="-2" y="48" width="4" height="4" rx="1" fill="#5CB88A" opacity="0.6"/>
+</svg>
